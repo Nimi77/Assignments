@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+.cards {
+  width: 900px;
+  display: flex;
+}
+.Item {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.Item h2 {
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+}
+.Item p {
+  font-family: "Lexend Deca", sans-serif;
+  font: 15px;
+  line-height: 24px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.firstCard {
+  border-radius: 12px 0 0 12px;
+  background-color: hsl(31, 77%, 52%);
+}
+.secondCard {
+  background-color: hsl(184, 100%, 22%);
+}
+.thirdCard {
+  border-radius: 0 12px 12px 0;
+  background-color: hsl(179, 100%, 13%);
+}
+.Item button {
+  background-color: hsl(0, 0%, 95%);
+  border: none;
+  border-radius: 20px;
+  padding: 12px 22px;
+  margin-top: 40px;
+}
+.firstCard .learnMore-btn {
+  color: hsl(31, 77%, 52%);
+}
+.secondCard .learnMore-btn {
+  color: hsl(184, 100%, 22%);
+}
+.thirdCard .learnMore-btn {
+  color: hsl(179, 100%, 13%);
+}
+@media screen and (max-width: 375px) {
+  body {
+    min-height: 10vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+    font-family: "Lexend Deca", sans-serif;
+  }
+  .cards {
+    width: 350px;
+    margin: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Item {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .Items h2 {
+    font-size: 20px;
+    font-weight: 400;
+    padding: 8px 24px 0;
+  }
+  .Items p {
+    font-size: 15px;
+    padding: 8px 24px 28px;
+  }
+  .firstCard,
+  .thirdCard {
+    border-radius: 0;
+  }
+  .Item button {
+    border-radius: 20px;
+    padding: 8px 10px;
+    margin-top: 20px;
+  }
+}
