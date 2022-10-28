@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Abimbola Oladejo | Frontend Developer</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>ABIMBOLA</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="./Images/Nimi.jpg"
+        alt="Abimbola"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          A young lady who is passionate about tech,I love challenging myself
+          and also like being challenged on doing something wonderful.
+        </p>
+        <p class="bio-text"><b>Name:</b> Abimbola Oladejo</p>
+        <p class="bio-text"><b>DOB:</b> May 31,2000</p>
+        <p class="bio-text"><b>Address:</b> Osogbo, Osun State</p>
+        <p class="bio-text"><b>Email:</b> abimbolaoladejo4@gmail.com</p>
+        <p class="bio-text"><b>Phone Number:</b> +234-814-607-9042</p>
+      </div>
+    </section>
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">MY TOP SKILLS</h2>
+      <div class="skills wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="./Images/HTML.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./Images/CSS.jpg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="./Images/JS.png"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+    <section class="services" id="services">
+      <h2 class="service-title">SERVICES</h2>
+      <p>
+        At the heart of everything I do is a passion to deliver success stories.
+        My goal is to create innovative solutions that enable your business to
+        be more agile and competitive.
+      </p>
+      <div class="service-containers">
+        <div class="s-container">
+          <div class="s-content">
+            <h3 class="s-title">Website Development</h3>
+            <p class="s-description">
+              We create platform for you to run your businesss successfully
+            </p>
+          </div>
+        </div>
+        <div class="s-container">
+          <div class="s-content">
+            <h3 class="s-title">Branding and Graphics</h3>
+            <p class="s-description">
+              Creating identity for your brand to boost product morale and give
+              clearer idea of what your brand is all about to your right
+              prospects.
+            </p>
+          </div>
+        </div>
+        <div class="s-container">
+          <div class="s-content">
+            <h3 class="s-title">Marketing</h3>
+            <p class="s-description">
+              Establishing long term relationship between people and your brand.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Section -->
+    <section class="project" id="project">
+      <h2 class="projects-title">Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="./Images/Tribute P.png"
+            alt="A simple Html Tribute Page"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="projects-title">Tribute</h3>
+          <p class="project-details">
+            A Tribute Page for someone I respect and admire
+          </p>
+          <a
+            href="https://codepen.io/nimi77/pen/NWMLeRX"
+            target="_blank"
+            class="project-link"
+            >Read More</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="./Images/S-Data.png"
+            alt="Student Data"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Student Data</h3>
+          <p class="project-details">
+            A list of data for a specific number of students
+          </p>
+          <a
+            href="https://codepen.io/nimi77/pen/OJZBpEx"
+            target="_blank"
+            class="project-link"
+            >Read More</a
+          >
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="./Images/Portfolio.png"
+            alt="Portfolio Website"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-details">A portfolio website using Html and CSS</p>
+          <a
+            href="https://replit.com/@Nimi77/Portfolio-Website#index.html"
+            target="_blank"
+            class="project-link"
+            >Read More</a
+          >
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Enter Your Message..."
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/_Nimi77" target="_blank">Nimi</a>
+      </p>
+    </footer>
+
+    <script
+      src="https://replit.com/public/js/replit-badge.js"
+      theme="blue"
+      defer
+    ></script>
+  </body>
+</html>
