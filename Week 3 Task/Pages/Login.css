@@ -9,14 +9,14 @@ body {
 h2 {
   margin: 13rem 0 0;
   padding: 0;
-  color: rgb(25, 10, 92);
+  color: rgb(14, 0, 77);
   text-align: center;
   text-transform: uppercase;
 }
 h4 {
   margin: 6px 20px;
   padding: 0;
-  color: rgb(25, 10, 92);
+  color: rgb(14, 0, 77);
   text-align: center;
 }
 h4 a {
@@ -67,19 +67,12 @@ h4 a {
   text-decoration: none;
   width: 20%;
   padding: 8px 19px;
-  background-color: #eb3203;
+  background-color: rgb(14, 2, 65);
   color: #f8f8f8;
   border-radius: 20px;
   font-size: 18px;
   transition: 0.3s;
 }
 .login-btn:hover {
-  background-color: rgb(14, 2, 65);
-}
-@media screen and (max-width: 728px) {
-  .login-box {
-    position: absolute;
-    margin: 10px 8rem 0;
-    padding: 40px;
-  }
+  background-color: #c52b05;
 }

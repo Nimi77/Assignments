@@ -3,10 +3,9 @@
   padding: 0;
 }
 body {
-  font-family: Nunito, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", sans-serif;
   background-color: #f8f8f8;
 }
-
 .top-bar {
   height: 5rem;
   width: 100%;
@@ -22,10 +21,10 @@ body {
   margin-left: 0.5rem;
 }
 .top-bar .login-btn {
-  margin: 0 0 0 20px;
-  padding: 8px 20px;
+  margin: 1.2rem 0 0 89rem;
+  padding: 10px 24px;
   height: 25px;
-  background-color: #eb3203;
+  background-color: rgb(14, 2, 65);
   color: #f8f8f8;
   text-decoration: none;
   border-color: transparent;
@@ -33,16 +32,11 @@ body {
   border-width: 1px;
   display: inline-flex;
   float: left;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 .top-bar .login-btn:hover {
-  background-color: rgb(14, 2, 65);
-}
-.top-bar .login {
-  font-size: 18px;
-  padding: 22px 86rem;
-  text-transform: uppercase;
-  margin-left: 1rem;
-  text-decoration: none;
+  background-color: rgb(235, 50, 30);
 }
 .success {
   padding: 80px 43px 0;
@@ -51,39 +45,11 @@ body {
   font-size: 48px;
   text-align: center;
   padding: 15rem 0 0 0;
-  color: #555555;
+  color: rgb(11, 0, 61);
 }
 .success h4 {
   font-size: 20px;
   text-align: center;
   padding: 10px;
-  color: rgb(12, 12, 12);
-}
-
-@media screen and (max-width: 728px) {
-  .top-bar {
-    height: 4.5rem;
-    padding: 0 2.5rem;
-    margin: auto;
-  }
-  .top-bar .brand {
-    width: 80;
-    height:50;
-  }
-  .top-bar .login {
-    padding: 16px 25rem;
-    text-align: center;
-    align-items: flex-end;
-  }
-  .top-bar .login-btn {
-    padding: 7px 16px;
-    height: 25px;
-    border-radius: 24px;
-  }
-  .success h2 {
-    font-size: 36px;
-  }
-  .success h4 {
-    font-size: 20px;
-  }
+  color: rgb(14, 0, 77);
 }
